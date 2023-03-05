@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  console:
+    build: .
+    volumes:
+      - ./:/app:cached
+    restart: on-failure
+    tty: true
+    stdin_open: true
+
+volumes:
+  vendor:

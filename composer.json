@@ -1,0 +1,38 @@
+{
+  "name": "igornast/data-storing-sample",
+  "description": "A data-storing command project.",
+  "minimum-stability": "stable",
+  "keywords": ["php-di", "data-storage"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Nastarowicz",
+      "email": "nastarowicz@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Tests\\": "tests"
+    },
+    "classmap": ["src"],
+    "exclude-from-classmap": [
+      "/tests/"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "doctrine/dbal": "^3.6",
+    "symfony/dependency-injection": "^6.2",
+    "symfony/dotenv": "^6.2",
+    "symfony/yaml": "*",
+    "symfony/config": "^6.2",
+    "symfony/validator": "^6.2",
+    "symfony/uid": "^6.2"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "friendsofphp/php-cs-fixer": "^3.14",
+    "phpunit/phpunit": "^10.0"
+  }
+}
