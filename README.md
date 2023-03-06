@@ -21,7 +21,7 @@ DSN_MYSQL='mysqli://user:secret@localhost/mydb'
 ```
 
 ### COMMAND
-!! ONLY FOR DEMONSTRATION PURPOSES - NOT WORKING
+!! ONLY FOR DEMONSTRATION PURPOSES
 
 Execute the user command to add or find a user.
 ```shell
